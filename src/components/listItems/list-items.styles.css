@@ -1,0 +1,30 @@
+.list {
+  color: #fff;
+  width: 300px;
+  background-color: #bf07ac;
+
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.list-item span {
+  cursor: pointer;
+  font-size: 20px;
+}
+.list-item p input {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+}
+.list-item p input:focus {
+  outline: none;
+}
